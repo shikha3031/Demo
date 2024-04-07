@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXP-6 Kinetics of iodide peroxide clock reaction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="main-container"> -->
+        <div class="container" id="bod">  
+            <img id="labpic" src="img/lab.png" alt="lab">  
+            
+            <div class="instructionsBox">
+                <h6 id="INSTRUCTIONS">INSTRUCTIONS:</h6><h1 id="message">start</h1>
+            </div>
+
+<div class="instruments">
+    <!-- <img id="stopwatch" src="img/stopwatch.png" alt=""> -->
+    <img id="emptyflask" src="img/emptyflask.png" alt="" title="Empty Flask">
+    <img id="emptybeaker" src="img/emptybeaker.png" alt="" title="Empty Beaker">
+<img  id="stir" src="img/stir.png" alt="" title="Stir">
+    <img id="kifull" src="img/PotassiumIodideFull.png" alt=""  title="0.1M Potassium Iodide">
+    <img  id="h2o2full"  src="img/hydrogenperoxideFulll.png" alt="" title="3% Hydrogen Peroxide">
+    <img id="na2s2o3full"  src="img/SodiumThiosulphatefulll.png" alt="" title="0.05M Sodium Thiosulphate">
+    <img  id="h2so4full"  src="img/SulphuricAcidFull.png" alt="" title="2.5M Sulphuric Acid">
+    <img id="starchfull"  src="img/STARCHFULL.png" alt="" title="2% Starch Solution">
+    <img id="waterfull"   src="img/Distilledwaterfull.png" alt="" title="Distilled Water">
+    <h1 id="hovt"  ></h1>
+    <!-- <button id="next" onclick="next">Next</button> -->
+</div>
+<div class="box">
+    <div class="dropdown" id="dropdown">
+        <label for="Potassium Iodide" class="kidropdown"> <ol><li style="color: azure; font-size: 1.5vw; list-style-type: square;">Choose any amount of 0.1M Potassium Iodide solution</li></ol></label>
+        <select name="KI" id="KI" class="DropDown1" onchange="SelectItem()">
+        <option class="option" value="ki5ml">5 ML of 0.1M KI Solution</option>
+        <option  class="option" value="li10ml">10 ML OF 0.1M KI Solution</option>
+        <option class="option"  value="ki15ml">15ML OF 0.1M KI Solution</option>
+            <option class="option"  value="ki20ml"> 20 ML OF 0.1M KI Solution</option>
+        </select>
+     </div>
+    
+    <button id="next" onclick="next">Next</button>
+</div>
+
+
+
+<div id="langselector">
+<h1  id="heading">WELCOME TO THE  VIRTUAL CHEMISTRY  LAB</h1>
+<br>
+ <h2 id="lselector">Please select your preferred language !</h2>
+ <br> <br>
+<button id="hindi" onclick="hindi1()">Hindi</button>
+<button id="eng" onclick="eng1()">English</button>
+</div>
+</div>
+<script src="script.js"></script>
+<script src="hover.js"></script>
+</body>
+</html>
