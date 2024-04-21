@@ -1,50 +1,48 @@
 const messages = [ 
-   " Press on the next button to start the reaction.",
-   
-   " Select the amount of 0.1M Potassium Iodide by choosing on dropdown menu ",
-   " now click on potassium iodide to measure it in the beaker",
-   " now click on the beaker to put the solution in flask",
-   " choose the amount of 3% Hydrogen Peroxide and measure it in measuring cylinder ",
-   " Now pour the measured solution in conical flask",
-   "measure 10ML of 0.05M Sodium Thiosulphate Solution",
-   "Now pour the measured sodium thiosulphate  in conical flask",
-   "Press the next button.",
-   "measure 10ML of 2.5M Sulphuric Acid Solution",
-   "Now pour the measured sulphuric acid in conical flask",
-   "Press the next button.",
-   "measure 5ML of 2% Starch Solution",
-   "Now pour the measured starch solution in conical flask",
-   "Press the next button.",
-   "measure required amount of water to make the whole solution 100Ml",
-   "pour the water into conical flask",
-   "Press the next button.",
-   "Now Stir the mixture",
-   "Immediately start the Stop watch and observe the timming when the mixture convert the colour into dark blue"
+    
+
+    "1. Press the Start button to initiate the reaction.",
+    "2. Select 0.1M Potassium Iodide from the dropdown menu.",
+    "3. Click on Potassium Iodide to measure it in the beaker.",
+    "4. Transfer the measured Potassium Iodide solution to the conical flask.",
+    "5. Choose the amount of 3% Hydrogen Peroxide from the dropdown menu.",
+    "6. Measure the 3% Hydrogen Peroxide in a beaker.",
+    "7. Pour the measured Hydrogen Peroxide solution into the conical flask.",
+    "8. Measure 10 mL of 0.05M Sodium Thiosulphate Solution.",
+    "9. Pour the measured Sodium Thiosulphate solution into the conical flask.",
+    "10. Measure 10 mL of 2.5M Sulphuric Acid Solution.",
+    "11. Pour the measured Sulphuric Acid into the conical flask.",
+    "12. Measure 5 mL of 2% Starch Solution.",
+    "13. Pour the measured Starch Solution into the conical flask.",
+    "14. Measure the required amount of water to make the total solution volume 100 mL.",
+    "15. Pour the water into the conical flask.",
+    "16. Press the Next button.",
+    "17. Stir the mixture thoroughly.",
+    "18. Immediately start the stopwatch and observe the time when the mixture changes color to dark blue."    
+
 ];
 
-const messagesh=[" वर्चुअल रासायनिक प्रयोगशाला में आपका स्वागत है, घड़ी रिएक्शन को करने के लिए। ",
-" अपनी पसंदीदा भाषा चुनें।",
-" उन्हें हविंग करके समाधानों के साथ अपने आप को परिचित करें।",
-" प्रारंभ करने के लिए आगे बटन दबाएं।" ,
-"0.1M पोटेशियम आयोडाइड की मात्रा का चयन करें और मापन बेलन में मापें।",
-"अब मापी गई विलय को कोनिकल फ्लास्क में डालें।",
-"आगे बटन पर क्लिक करें।",
-" 3% हाइड्रोजन पेरॉक्साइड की मात्रा का चयन करें और मापन बेलन में मापें।",
- "अब मापी गई विलय को कोनिकल फ्लास्क में डालें।",
-"0.05M सोडियम थाइओसल्फेट समाधान का 10मिलीलीटर मापन करें।",
- "अब मापी गई सोडियम थाइओसल्फेट को कोनिकल फ्लास्क में डालें।",
-"आगे , बटन दबाएं।",
-"2.5M सल्फ्यूरिक एसिड समाधान का 10मिलीलीटर मापें।",
-" अब मापी गई सल्फ्यूरिक एसिड को कोनिकल फ्लास्क में डालें।",
-"आगे , बटन दबाएं।",
-" 2% स्टार्च समाधान की आवश्यक मात्रा मापें।",
-"अब मापी गई स्टार्च समाधान को कोनिकल फ्लास्क में डालें।",
-"आगे , बटन दबाएं।",
-"पूरे समाधान को 100मिलीलीटर बनाने के लिए जरूरी मात्रा का पानी मापें।",
-" पानी को कोनिकल फ्लास्क में डालें।",
-"आगे , बटन दबाएं।",
-" अब मिश्रण को उत्तेजित करें।",
-" तुरंत स्टॉपवॉच शुरू करें और समय नोट करें जब मिश्रण का रंग गहरा नीला हो जाए।"];
+const messagesh = [
+    "1. प्रारंभ बटन दबाएं रिएक्शन को प्रारंभ करने के लिए।",
+    "2. ड्रॉपडाउन मेनू से 0.1M पोटैशियम आयोडाइड चुनें।",
+    "3. पोटैशियम आयोडाइड को मापने के लिए बेकर पर क्लिक करें।",
+    "4. मापा हुआ पोटैशियम आयोडाइड सॉल्यूशन को कोनिकल फ्लास्क में डालें।",
+    "5. ड्रॉपडाउन मेनू से 3% हाइड्रोजन पेरोक्साइड की मात्रा चुनें।",
+    "6. बेकर में 3% हाइड्रोजन पेरोक्साइड मापें।",
+    "7. मापा हुआ हाइड्रोजन पेरोक्साइड सॉल्यूशन को कोनिकल फ्लास्क में डालें।",
+    "8. 0.05M सोडियम थाइओसल्फेट सॉल्यूशन का 10 मिलीलीटर मापें।",
+    "9. मापा हुआ सोडियम थाइओसल्फेट सॉल्यूशन को कोनिकल फ्लास्क में डालें।",
+    "10. 2.5M सल्फ्यूरिक एसिड सॉल्यूशन का 10 मिलीलीटर मापें।",
+    "11. मापा हुआ सल्फ्यूरिक एसिड को कोनिकल फ्लास्क में डालें।",
+    "12. 2% स्टार्च सॉल्यूशन का 5 मिलीलीटर मापें।",
+    "13. मापा हुआ स्टार्च सॉल्यूशन को कोनिकल फ्लास्क में डालें।",
+    "14. कुल सॉल्यूशन आयतन 100 मिलीलीटर बनाने के लिए जरूरी मात्रा का पानी मापें।",
+    "15. पानी को कोनिकल फ्लास्क में डालें।",
+    "16. अगला बटन दबाएं।",
+    "17. मिश्रण को अच्छे से हिलाएं।",
+    "18. तुरंत स्टॉपवॉच शुरू करें और मिश्रण का रंग गहरा नीला होने पर समय देखें।"
+];
+
 
 
 var hindibtn = document.querySelector("#hindi")
@@ -89,8 +87,7 @@ function speech1(){
 
     var inst=document.querySelector("#message")
      inst.innerText=messages[counter]
-     
-function update(){
+     function update(){
       console.log(messages[counter])
       if(lang=="hindi"){
           inst.innerText=messagesh[counter]
@@ -102,40 +99,16 @@ function update(){
       speech1()
   }
 
-  var emptyflask=document.querySelector("#emptyflask")
-  var emptybeaker=document.querySelector("#emptybeaker")
-  var stir=document.querySelector("#stir")
-  var kifull=document.querySelector("#kifull")
-  var h2o2full=document.querySelector("#h2o2full")
-  var na2s2o3full =document.querySelector("#na2s2o3full")
-  var h2so4full=document.querySelector("#h2so4full")
-  var starchfull=document.querySelector("#starchfull")
-  var waterfull=document.querySelector("#waterfull")
-var dropdown=document.querySelector("#dropdown")
-
-
-
-// ######## 1st step ##############
-//Add event listener to the "Next" button
+// Add event listener to the "Next" button
 document.getElementById("next").addEventListener("click", function() {
-    update();
     // Toggle the visibility of the dropdown content
     var dropdownContent = document.querySelector(".dropdown");
- {
+    if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+    } else {
         dropdownContent.style.display = "block";
     }
 });
 
-document.getElementById("kifull").addEventListener("click",function(){
-    
-})
-// Add event listener to the dropdown select element
-document.getElementById("KI").addEventListener("change", function() {
-    // Update the message when an option is selected from the dropdown
-    update();
-});
 
-function SelectItem(){
-    let item =document.getElementById('KI').value
-    document.getElementById('INSTRUCTION').innerHTML="you have selected"+item
-}
+
